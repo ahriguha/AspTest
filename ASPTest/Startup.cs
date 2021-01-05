@@ -29,9 +29,9 @@ namespace ASPTest
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AppDBContent>(options => options.UseSqlServer(_confString.GetConnectionString("DefaultConnection")));
-            services.AddTransient<IAllCars, CarRepository>();
-            services.AddTransient<ICarCategory, CategoryRepository>();
+           // services.AddDbContext<AppDBContent>(options => options.UseSqlServer(_confString.GetConnectionString("DefaultConnection")));
+            services.AddTransient<IAllCars, MockCars>();
+            services.AddTransient<ICarCategory, MockCategory>();
             services.AddMvc(option => option.EnableEndpointRouting = false);
             
         }
