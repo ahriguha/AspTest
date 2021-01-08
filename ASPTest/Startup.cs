@@ -42,7 +42,13 @@ namespace ASPTest
             app.UseDeveloperExceptionPage();
             app.UseMvcWithDefaultRoute();
             app.UseStatusCodePages();
-            app.UseStaticFiles();              
+            app.UseStaticFiles();
+
+            using (var scope = app.ApplicationServices.CreateScope())
+            {
+                AppDBContent content = app.ApplicationServices.GetRequiredService<AppDBContent>();
+                DBObjects.Initial(content);
+            }
         }
     }
 }
