@@ -1,0 +1,8 @@
+﻿@Model Car
+<div class="col-lg-4">
+    <img class="img-thumbnail" src="@Model.image" height="120" width="260" alt="@Model.name">
+    <h2>Модель: @Model.name</h2>
+    <p>Цена: @Model.price.ToString("c")</p>
+    <p>Описание: @Model.fullDescription</p>
+    <p><a class="btn btn-warning" href="/ShopCart/addToCart">Add to cart</a></p>
+</div>

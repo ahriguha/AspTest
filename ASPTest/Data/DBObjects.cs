@@ -34,8 +34,7 @@ namespace ASPTest.Data
                         name = "BMW",
                         shortDescription = "Бэха",
                         fullDescription = "Ну это бэха",
-                        image = "https://lh3.googleusercontent.com/proxy/TMUTNWZj4iSXW" +
-                    "tVehDTJRRNgWBxFhZCKHhHvi9Y1uPnfXsgYZ17hc7tanUZabhCOXKslBj6Ts5-vWGPDP1FNp2V4rg",
+                        image = "https://autoua.net/media/uploads/bmw/bmw-serie-8-gran-coupe-2020.jpg",
                         price = 7000,
                         isFavourite = true,
                         available = true,

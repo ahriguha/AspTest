@@ -19,8 +19,15 @@ using ASPTest.ViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\Admin\source\repos\ASPTest\ASPTest\Views\_ViewImports.cshtml"
+using ASPTest.Data.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7b12cb2369f16844505ee2c66f2af1d7a3606364", @"/Views/Cars/More_Tesla.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2587a9717633f22f95457fd2eb62291598b377ae", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1bda176dbbfb1d7e34329a4ad038ed93acb01078", @"/Views/_ViewImports.cshtml")]
     public class Views_Cars_More_Tesla : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
